@@ -1,0 +1,54 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Editor and OS artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python packaging / distribution
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Test and coverage outputs
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Project data and generated output artifacts
+*.duckdb
+*.db
+*.parquet
+*.joblib
+*.model
+*.csv
+*.zip
+*.tar.gz
+*.log
+
+# Keep dependency lock files in source control if desired
+# But not generated virtualenv artifacts
