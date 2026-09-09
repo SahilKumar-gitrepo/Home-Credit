@@ -1,0 +1,46 @@
+﻿# Agentic AI Credit Underwriting System — Python Dependencies
+# Install: pip install -r requirements.txt
+# Or use the existing .venv which already has all packages.
+
+# Web framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-multipart>=0.0.6
+python-dotenv>=1.0.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# ML
+xgboost>=1.7.0
+scikit-learn>=1.2.0
+joblib>=1.2.0
+shap>=0.41.0
+numpy>=1.24.0
+pandas>=2.0.0
+pyarrow>=12.0.0
+
+# LangGraph / LangChain
+langgraph>=0.1.0
+langchain-core>=0.1.0
+langchain-ollama>=0.1.0
+langchain-huggingface>=0.0.3
+langchain-chroma>=0.1.0
+langchain-text-splitters>=0.0.1
+
+# RAG / Embeddings
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# PDF
+pypdf>=3.0.0
+
+# Data
+duckdb>=0.9.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+httpx>=0.24.0
